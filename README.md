@@ -8,7 +8,7 @@ UE4.27, UE5.0 and UE5.1.
 
 ## Getting Started
 
-  !["guide"](readme_images/guide.gif)
+:golf: By following below steps you will be able to get the sample app running on your computer, you will be able to use your voice to interact with the game to change objects' color.
 
 1. Create a wit.ai app:
 
@@ -35,6 +35,15 @@ UE4.27, UE5.0 and UE5.1.
   - You can use the input box to give a text command (e.g. `Make the cube red`) and then click the `Send` button to execute
 
   - Or click the `Acitvate` button to give a voice command.
+
+**Congratulations you made it! :trophy:**
+
+If you cannot work it out, please check out the below video which shows how people follow the above steps to get the sample app to run:
+  !["guide"](readme_images/guide.gif)
+
+If you still cannot get it to run, please feel free to create an issue, we will help you.
+
+
 
 ## License
 
