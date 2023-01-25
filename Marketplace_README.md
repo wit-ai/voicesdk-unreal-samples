@@ -35,18 +35,11 @@ _:golf: By following below steps you will be able to get the sample app running 
 
   - Tick the checkbox to enable the plugin (Editor restart is needed)
 
-6. Add the lines below to your game's Config/DefaultEngine.ini (restart the Editor after save):
-
-```
-[Voice]
-bEnabled=True
-```
-
-7. Once Unreal editor opened, then open the `ShapeConfiguration` file from `Content/VoiceSDK/Demo/Configuration` and put your Wit.ai's `Server Access Token` and `Client Access Token` there. Tokens can be found here:
+6. Once Unreal editor opened, then open the `ShapeConfiguration` file from `Content/VoiceSDK/Demo/Configuration` and put your Wit.ai's `Server Access Token` and `Client Access Token` there. Tokens can be found here:
 
   !["Screengrab of Wit.ai app's tokens"](readme_images/wit-tokens.png)
 
-8. `Play` the game and now you can try our magic: :sparkles: `Make the cube red`
+7. `Play` the game and now you can try our magic: :sparkles: `Make the cube red`
 
     - You can use the input box to give a text command (e.g. `Make the cube red`) and then click the `Send` button to execute
 
