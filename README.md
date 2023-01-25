@@ -10,54 +10,31 @@ UE4.27, UE5.0 and UE5.1.
 
   !["guide"](readme_images/guide.gif)
 
-- Create a wit.ai app:
+1. Create a wit.ai app:
 
-  - Download our app backup file from [here](https://github.com/wit-ai/voicesdk-unreal/releases/download/v47.0.4/wit_app_shapes_demo-2023-01-18-11-12-27.zip).
+    - Download our app backup file from [here](https://github.com/wit-ai/voicesdk-unreal/releases/download/v47.0.4/wit_app_shapes_demo-2023-01-18-11-12-27.zip).
 
-  - Visit [Wit.ai](https://wit.ai/apps) and create a new app with the backup file.
+    - Visit [Wit.ai](https://wit.ai/apps) and create a new app with the backup file.
 
   !["Screengrab of creating a new Wit.ai app from a backup file"](readme_images/create-wit-app-from-a-backup.png)
 
-- [Download](https://github.com/wit-ai/voicesdk-unreal-samples/archive/refs/heads/main.zip) this project
+2. [Download](https://github.com/wit-ai/voicesdk-unreal-samples/archive/refs/heads/main.zip) this sample project, and unzip it.
 
-- Run `install_VoiceSDK.bat` to download and install Voice SDK (from Github) into the Plugins folder.
+3. Run `install_VoiceSDK.bat` to install Voice SDK.
 
-- Double click `voicesdk_unreal_demo.uproject` to open the project
+4. Double click `voicesdk_unreal_demo.uproject` to open the project
 
-- The first time you run this project, Unreal will need to compile Voice SDK, it will pop a window: `Missing voicesdk_unreal_demo Moduels`, then click `Yes` to compile Voice SDK.
+5. The first time you run this project, Unreal will need to compile Voice SDK, it will pop a window: `Missing voicesdk_unreal_demo Moduels`, then click `Yes` to compile Voice SDK.
 
-- Once Unreal editor opened, then open the `ShapeConfiguration` file from `Content/VoiceSDK/Demo/Configuration` and put your Wit.ai's `Server Access Token` and `Client Access Token` there. Tokens can be found here:
+6. Once Unreal editor opened, then open the `ShapeConfiguration` file from `Content/VoiceSDK/Demo/Configuration` and put your Wit.ai's `Server Access Token` and `Client Access Token` there. Tokens can be found here:
 
   !["Screengrab of Wit.ai app's tokens"](readme_images/wit-tokens.png)
 
-- `Play` the game and now you can try our magic: `Make the cube red`
+7. `Play` the game and now you can try our magic: :sparkles: `Make the cube red`
 
   - You can use the input box to give a text command (e.g. `Make the cube red`) and then click the `Send` button to execute
 
   - Or click the `Acitvate` button to give a voice command.
-
-## Marketplace
-
-The above guide is the easiest way to setup the project, but if you prefer to download Voice SDK from Marketplace(you will not need to compile the plugin), please follow the below steps:
-
-- Install the plugin from [Marketplace](https://www.unrealengine.com/marketplace/en-US/product/voice-sdk)
-
-- Enable the Plugin:
-
-  - Unreal Editor-> Settings-> Plugins-> Installed -> Voice -> VoiceSDK
-
-  - Tick the checkbox to enable the plugin (Editor restart is needed)
-
-- Add Voice to GameEngine.ini
-
-Add the lines below to your game's Config/DefaultEngine.ini: (Editor restart is needed)
-
-```
-[Voice]
-bEnabled=True
-```
-
-Note: the above steps only install Voice SDK, you still need to create the Wit.ai app and copy over tokens to the `ShapeConfiguration` file.
 
 ## License
 
