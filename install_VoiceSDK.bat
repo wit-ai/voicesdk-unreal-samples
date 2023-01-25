@@ -10,5 +10,3 @@ git clone https://github.com/wit-ai/wit-unreal
 
 cd ..
 
-ECHO [Voice]>>.\\Config\\DefaultEngine.ini
-ECHO bEnabled=true>>.\\Config\\DefaultEngine.ini
