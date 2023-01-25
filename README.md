@@ -38,11 +38,11 @@ _:golf: By following below steps you will be able to get the sample app running 
 
 ***Congratulations you made it! :trophy:***
 
-    If you cannot work it out, please check out the below video which shows how people follow the above steps to get the sample app to run:
+> If you cannot work it out, please check out the below video which shows how people follow the above steps to get the sample app to run:
 
   !["guide"](readme_images/guide.gif)
 
-    If you still cannot get it to run, please feel free to create an issue, we will help you.
+> If you still cannot get it to run, please feel free to create an issue, we will help you.
 
 
 
