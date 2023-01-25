@@ -6,6 +6,10 @@ This is a demo game for Voice SDK. It demonstrates how to add Voice Commands and
 
 UE4.27, UE5.0 and UE5.1.
 
+## Supported Platforms:
+
+Windows, Oculus, Android.
+
 ## Getting Started
 
 _:golf: By following below steps you will be able to get the sample app running on your computer, you will be able to use your voice to interact with the game to change objects' color._
