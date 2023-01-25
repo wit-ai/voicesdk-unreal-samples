@@ -18,19 +18,31 @@ _:golf: By following below steps you will be able to get the sample app running 
 
   !["Screengrab of creating a new Wit.ai app from a backup file"](readme_images/create-wit-app-from-a-backup.png)
 
-2. [Download](https://github.com/wit-ai/voicesdk-unreal-samples/archive/refs/heads/main.zip) this sample project, and unzip it.
 
-3. Run `install_VoiceSDK.bat` to install Voice SDK.
+2. Install the plugin from [Marketplace](https://www.unrealengine.com/marketplace/en-US/product/voice-sdk)
+
+3. [Download](https://github.com/wit-ai/voicesdk-unreal-samples/archive/refs/heads/main.zip) this sample project, and unzip it.
 
 4. Double click `voicesdk_unreal_demo.uproject` to open the project
 
-5. The first time you run this project, Unreal will need to compile Voice SDK, it will pop a window: `Missing voicesdk_unreal_demo Moduels`, then click `Yes` to compile Voice SDK.
+5. Enable the Plugin:
 
-6. Once Unreal editor opened, then open the `ShapeConfiguration` file from `Content/VoiceSDK/Demo/Configuration` and put your Wit.ai's `Server Access Token` and `Client Access Token` there. Tokens can be found here:
+  - Unreal Editor-> Settings-> Plugins-> Installed -> Voice -> VoiceSDK
+
+  - Tick the checkbox to enable the plugin (Editor restart is needed)
+
+6. Add the lines below to your game's Config/DefaultEngine.ini (restart the Editor after save):
+
+```
+[Voice]
+bEnabled=True
+```
+
+7. Once Unreal editor opened, then open the `ShapeConfiguration` file from `Content/VoiceSDK/Demo/Configuration` and put your Wit.ai's `Server Access Token` and `Client Access Token` there. Tokens can be found here:
 
   !["Screengrab of Wit.ai app's tokens"](readme_images/wit-tokens.png)
 
-7. `Play` the game and now you can try our magic: :sparkles: `Make the cube red`
+8. `Play` the game and now you can try our magic: :sparkles: `Make the cube red`
 
     - You can use the input box to give a text command (e.g. `Make the cube red`) and then click the `Send` button to execute
 
@@ -40,7 +52,7 @@ _:golf: By following below steps you will be able to get the sample app running 
 
 > If you cannot work it out, please check out the below video which shows how people follow the above steps to get the sample app to run:
 
-  !["guide"](readme_images/guide.gif)
+  !["guide"](readme_images/guide-marketplace.gif)
 
 > If you still cannot get it to run, please feel free to create an issue, we will help you.
 
