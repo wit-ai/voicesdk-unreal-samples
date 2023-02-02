@@ -8,7 +8,7 @@ UE4.27, UE5.0 and UE5.1.
 
 ## Supported Platforms:
 
-Windows, Oculus, Android.
+Windows, Oculus, Android. (**Note:** This sample project doesn't work on Mac)
 
 ## Getting Started
 
