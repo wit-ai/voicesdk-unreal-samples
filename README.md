@@ -8,7 +8,9 @@ UE4.27, UE5.0 and UE5.1.
 
 ## Supported Platforms:
 
-Windows, Oculus, Android. (**Note:** This sample project doesn't work on Mac)
+Windows, Oculus, Android. 
+
+**Note:** This sample project doesn't work on Mac.
 
 ## Getting Started
 
@@ -34,9 +36,9 @@ _:golf: By following below steps you will be able to get the sample app running 
 
   !["Screengrab of Wit.ai app's tokens"](readme_images/wit-tokens.png)
 
-7. `Play` the game and now you can try our magic: :sparkles: `Make the cube red`
+7. `Play` the game and now you can try our magic: :sparkles: `Make the cube red`.
 
-    - You can use the input box to give a text command (e.g. `Make the cube red`) and then click the `Send` button to execute
+    - You can use the input box to give a text command (e.g. `Make the cube red`) and then click the `Send` button to execute.
 
     - Or click the `Acitvate` button to give a voice command.
 
