@@ -2,13 +2,15 @@
 
 This is a demo game for Voice SDK. It demonstrates how to add Voice Commands and TTS into an Unreal game.  In the game user can use Voice Commands to change objects' color.
 
+  !["Screengrab of shapes demo"](readme_images/shapes-demo.png)
+
 ## Supported Engine Versions:
 
 UE4.27, UE5.0 and UE5.1.
 
 ## Supported Platforms:
 
-Windows, Oculus, Android. 
+Windows, Oculus, Android.
 
 **Note:** This sample project doesn't work on Mac.
 
@@ -49,6 +51,7 @@ _:golf: By following below steps you will be able to get the sample app running 
   !["guide"](readme_images/guide.gif)
 
 > If you still cannot get it to run, please feel free to create an issue, we will help you.
+
 
 ## License
 
