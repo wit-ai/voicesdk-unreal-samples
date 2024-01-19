@@ -1,9 +1,16 @@
 {
-	
-	"//Copyright": "Copyright (c) Meta Platforms, Inc. and affiliates.",
-	"//CopyrightInfo": "This source code is licensed under the license found in the LICENSE file in the root directory of this source tree.",
 	"FileVersion": 3,
 	"EngineAssociation": "5.3",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "voicesdk_unreal_demo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
 }
